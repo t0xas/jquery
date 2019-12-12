@@ -24,7 +24,6 @@
             });
 
             function menu($menu, correction, scrollDirection = 'down') {
-
                 let menuStartPosition = parseInt($menu.parent().offset().top);
                 let windowHeight = parseInt($(window).height());
                 let scrollTop = $(document).scrollTop();
@@ -92,6 +91,3 @@
         });
     };
 })(jQuery);
-
-
-
